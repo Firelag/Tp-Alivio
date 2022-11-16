@@ -1,0 +1,87 @@
+@mixin header {
+    display: flex;
+        align-items: center;
+        width: 100%;
+        
+
+
+        nav {
+            width: 50%;
+
+            height: 80px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-left: 10%;
+            margin-right: 10%;
+            
+
+
+
+
+
+            h1 {
+                width: 10%;
+                height: 40%;
+                font-family: 'Lato';
+                color: rgb(17, 159, 118);
+
+
+            }
+
+
+            ul {
+                width: 25%;
+                height: 40%;
+                
+                display: contents;
+                list-style: none;
+                font-style: normal;
+                
+
+                li {
+                    a {
+                        text-decoration: none;
+                        color: #000;
+                        
+                    }
+                }
+
+            }
+        }
+
+        //Bouton de connexion
+        div {
+            display: flex;
+
+            width: 20%;
+            height: 80px;
+            justify-content: space-around;
+            align-items: center;
+            text-decoration: none;
+            list-style: none;
+            font-family: 'Lato';
+
+            a {
+                text-decoration: none;
+                color: black;
+            }
+
+
+            .bouton {
+                list-style: none;
+                background-color: #01996D;
+                border-bottom: 1px solid #000;
+                border-right: 1px solid #000;
+
+                align-items: center;
+                display: flex;
+                color: white;
+                width: 30%;
+                height: 60%;
+                padding-left: 6%;
+                border-radius: 7%;
+
+            }
+        }
+}

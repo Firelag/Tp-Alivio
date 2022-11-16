@@ -1,0 +1,579 @@
+body header {
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+body header nav {
+  width: 50%;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+body header nav h1 {
+  width: 10%;
+  height: 40%;
+  font-family: "Lato";
+  color: rgb(17, 159, 118);
+}
+body header nav ul {
+  width: 25%;
+  height: 40%;
+  display: contents;
+  list-style: none;
+  font-style: normal;
+}
+body header nav ul li a {
+  text-decoration: none;
+  color: #000;
+}
+body header div {
+  display: flex;
+  width: 20%;
+  height: 80px;
+  justify-content: space-around;
+  align-items: center;
+  text-decoration: none;
+  list-style: none;
+  font-family: "Lato";
+}
+body header div a {
+  text-decoration: none;
+  color: black;
+}
+body header div .bouton {
+  list-style: none;
+  background-color: #01996D;
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+  align-items: center;
+  display: flex;
+  color: white;
+  width: 30%;
+  height: 60%;
+  padding-left: 6%;
+  border-radius: 7%;
+}
+body .hero {
+  background-image: url("images/hero.jpg");
+  height: 110vh;
+  display: flex;
+  flex-direction: column;
+  background-repeat: no-repeat;
+  margin-bottom: 5%;
+  background-position: 30%;
+}
+@media (max-width: 992px) {
+  body .hero {
+    height: 80vh;
+    background-position: 40%;
+  }
+}
+@media (max-width: 768px) {
+  body .hero {
+    height: 100vh;
+    background-position: 55%;
+  }
+}
+body .titre {
+  color: #01996D;
+  margin-left: 5%;
+  font-size: 65px;
+  width: 30%;
+  align-items: center;
+  font-family: "Georgia";
+}
+@media (max-width: 992px) {
+  body .titre {
+    font-size: 55px;
+    width: 40%;
+  }
+}
+@media (max-width: 768px) {
+  body .titre {
+    font-size: 35px;
+    width: 50%;
+  }
+}
+body p {
+  margin-left: 5%;
+  width: 20%;
+  font-family: "Lato";
+}
+@media (max-width: 992px) {
+  body p {
+    font-size: 25px;
+    width: 30%;
+  }
+}
+@media (max-width: 768px) {
+  body p {
+    font-size: 20px;
+    width: 50%;
+  }
+}
+body a {
+  text-decoration: none;
+  font-family: "Lato";
+}
+@media (max-width: 768px) {
+  body a {
+    font-size: 20px;
+  }
+}
+body .bouton1 {
+  list-style: none;
+  background-color: #01996D;
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+  align-items: center;
+  display: flex;
+  color: white;
+  width: 12%;
+  height: 8%;
+  padding-left: 4%;
+  margin-left: 5%;
+  margin-top: 3%;
+  border-radius: 3%;
+  font-family: "Lato";
+}
+@media (max-width: 992px) {
+  body .bouton1 {
+    padding-right: 3%;
+  }
+}
+@media (max-width: 768px) {
+  body .bouton1 {
+    padding-left: 10%;
+    padding-right: 5%;
+    width: 30%;
+  }
+}
+body .section1 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+@media (max-width: 768px) {
+  body .section1 {
+    flex-direction: column;
+    font-size: smaller;
+  }
+}
+body .section1 .page1 {
+  width: 100%;
+  margin-left: 8%;
+}
+body .section1 .page1 h3 {
+  font-size: medium;
+  font-family: "Lato";
+}
+body .section1 .page1 h4 {
+  color: #01996D;
+  font-size: 50px;
+  font-family: "Georgia";
+  align-items: center;
+  margin-top: 0%;
+  width: 90%;
+}
+@media (max-width: 992px) {
+  body .section1 .page1 h4 {
+    font-size: 40px;
+  }
+}
+@media (max-width: 768px) {
+  body .section1 .page1 h4 {
+    font-size: 30px;
+  }
+}
+body .section1 .para p {
+  width: 60%;
+  margin-left: 10%;
+  font-family: "Lato";
+}
+@media (max-width: 992px) {
+  body .section1 .para p {
+    font-size: 20px;
+  }
+}
+body .section2 {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  margin-bottom: 10%;
+  margin-top: 10%;
+}
+@media (max-width: 992px) {
+  body .section2 {
+    flex-direction: column;
+    margin-top: 30%;
+  }
+}
+body .section2 .perso {
+  width: 30%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+@media (max-width: 992px) {
+  body .section2 .perso {
+    width: 100%;
+    margin-bottom: 50%;
+  }
+}
+body .section2 .perso span {
+  display: flex;
+  color: #01996D;
+  font-size: 800%;
+  opacity: 0.2;
+  position: absolute;
+  font-family: "Georgia";
+  top: -16%;
+  left: 22%;
+  display: flex;
+}
+body .section2 .perso h3 {
+  font-family: "Georgia";
+}
+body .section2 .perso p {
+  width: 60%;
+  margin-left: 0%;
+}
+body .section2 .perso img {
+  width: 60%;
+}
+body .section2 .write {
+  width: 30%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+@media (max-width: 992px) {
+  body .section2 .write {
+    width: 100%;
+    margin-bottom: 50%;
+  }
+}
+body .section2 .write span {
+  display: flex;
+  color: #01996D;
+  font-size: 800%;
+  opacity: 0.2;
+  position: absolute;
+  font-family: "Georgia";
+  top: -17%;
+  left: 15%;
+}
+body .section2 .write h3 {
+  position: relative;
+  font-family: "Georgia";
+}
+body .section2 .write p {
+  width: 60%;
+  margin-left: 0%;
+}
+body .section2 .write img {
+  width: 60%;
+}
+body .section2 .alivio {
+  width: 30%;
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+@media (max-width: 922px) {
+  body .section2 .alivio {
+    width: 100%;
+    margin-bottom: 50%;
+  }
+}
+body .section2 .alivio span {
+  display: flex;
+  color: #01996D;
+  font-size: 800%;
+  opacity: 0.2;
+  position: absolute;
+  font-family: "Georgia";
+  top: -18%;
+  left: 19%;
+}
+body .section2 .alivio h3 {
+  position: relative;
+  font-family: "Georgia";
+}
+body .section2 .alivio p {
+  width: 60%;
+  margin-left: 0%;
+}
+body .section2 .alivio img {
+  width: 60%;
+}
+body .section3 {
+  background-color: rgb(36, 88, 82);
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+  height: 80vh;
+}
+@media (max-width: 768px) {
+  body .section3 {
+    flex-direction: column;
+    height: 100vh;
+  }
+}
+@media (max-width: 992px) {
+  body .section3 {
+    height: 100vh;
+    flex-direction: column;
+  }
+}
+body .section3 .page3 {
+  width: 30%;
+}
+@media (max-width: 768px) {
+  body .section3 .page3 {
+    width: 80%;
+  }
+}
+@media (max-width: 992px) {
+  body .section3 .page3 {
+    width: 80%;
+  }
+}
+body .section3 .page3 h2 {
+  color: white;
+  width: 90%;
+  font-size: 35px;
+  font-family: "Georgia";
+}
+body .section3 .page3 p {
+  font-size: 20px;
+  color: white;
+  width: 100%;
+  margin-left: 0%;
+  font-family: "Lato";
+}
+body .section3 .page3 a {
+  list-style: none;
+  color: white;
+  background-color: rgb(1, 153, 109);
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+  display: flex;
+  align-items: center;
+  font-family: "Lato";
+  width: 35%;
+  height: 8vh;
+  padding-left: 13%;
+  font-size: smaller;
+  border-radius: 3%;
+}
+@media (max-width: 992px) {
+  body .section3 .page3 a {
+    font-size: 20px;
+  }
+}
+body .section3 img {
+  width: 40%;
+}
+@media (max-width: 768px) {
+  body .section3 img {
+    width: 100%;
+  }
+}
+@media (max-width: 992px) {
+  body .section3 img {
+    width: 80%;
+  }
+}
+body .section4 {
+  width: 100%;
+  margin-top: 10%;
+  display: flex;
+  justify-content: space-around;
+}
+@media (max-width: 992px) {
+  body .section4 {
+    flex-direction: column;
+  }
+}
+body .section4 .image {
+  background-image: url("images/ourproduct.jpg");
+  width: 60%;
+  height: 100vh;
+  background-size: 70vh;
+  background-repeat: no-repeat;
+  position: relative;
+  margin-left: 10%;
+  display: flex;
+  align-items: center;
+}
+@media (max-width: 992px) {
+  body .section4 .image {
+    background-size: 50vh;
+    width: 100%;
+  }
+}
+@media (max-width: 768px) {
+  body .section4 .image {
+    background-size: 40vh;
+    width: 100%;
+    height: 60vh;
+  }
+}
+body .section4 .image .carte {
+  position: absolute;
+  background-color: rgb(255, 255, 255);
+  border-radius: 3%;
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  top: 50%;
+  justify-content: center;
+  height: 40%;
+  align-items: center;
+  left: -10%;
+  border-bottom: 3px solid rgba(0, 0, 0, 0.1);
+  border-right: 1px solid rgba(0, 0, 0, 0.1);
+  border-top: 1px solid rgba(0, 0, 0, 0.1);
+  border-left: 3px solid rgba(0, 0, 0, 0.1);
+}
+@media (max-width: 992px) {
+  body .section4 .image .carte {
+    width: 30%;
+    height: 40%;
+    top: 40%;
+  }
+}
+@media (max-width: 768px) {
+  body .section4 .image .carte {
+    width: 50%;
+    height: 50%;
+    font-size: small;
+    top: 35%;
+  }
+}
+body .section4 .image .carte img {
+  width: 20%;
+  border-radius: 80%;
+}
+body .section4 .image .carte p {
+  font-family: "Lato";
+}
+@media (max-width: 768px) {
+  body .section4 .image .carte p {
+    font-size: smaller;
+  }
+}
+body .section4 .image .carte h4 {
+  font-family: "Georgia";
+}
+body .section4 .image .carte h3 {
+  text-decoration: underline;
+  font-family: "Lato";
+}
+body .section4 .image .carte ul {
+  padding-left: 0%;
+}
+body .section4 .image .carte ul li a {
+  color: #000;
+  list-style: none;
+  font-family: "Lato";
+}
+@media (max-width: 768px) {
+  body .section4 .image .carte ul li a {
+    font-size: smaller;
+  }
+}
+body .section4 .txt {
+  width: 50%;
+}
+@media (max-width: 992px) {
+  body .section4 .txt {
+    width: 80%;
+    margin-left: 20%;
+    align-items: center;
+    margin-bottom: 10%;
+  }
+}
+@media (max-width: 768px) {
+  body .section4 .txt {
+    font-size: smaller;
+  }
+}
+body .section4 .txt p {
+  margin-left: 0%;
+  font-size: larger;
+  font-family: "Lato";
+}
+body .section4 .txt h3 {
+  font-size: 300%;
+  width: 80%;
+  color: rgb(9, 156, 113);
+  margin-top: 0%;
+  font-family: "Georgia";
+}
+@media (max-width: 768px) {
+  body .section4 .txt h3 {
+    font-size: 25px;
+  }
+}
+body .section4 .txt p {
+  width: 60%;
+  font-family: "Lato";
+}
+body .section4 .txt a {
+  list-style: none;
+  color: white;
+  background-color: rgb(1, 153, 109);
+  border-bottom: 1px solid #000;
+  border-right: 1px solid #000;
+  display: flex;
+  align-items: center;
+  font-family: "Lato";
+  width: 23%;
+  height: 8vh;
+  padding-left: 8%;
+  font-size: smaller;
+  border-radius: 3%;
+}
+@media (max-width: 992px) {
+  body .section4 .txt a {
+    padding-right: 7%;
+    font-size: 15px;
+  }
+}
+body footer {
+  background-color: rgb(36, 88, 82);
+  color: white;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+body footer .liste {
+  width: 100%;
+  height: 80%;
+}
+body footer .liste ul h2 {
+  margin-top: 10%;
+  font-family: "Avenir";
+}
+body footer .liste ul li {
+  font-size: large;
+  list-style: none;
+  text-decoration: none;
+  justify-content: space-between;
+  display: flex;
+  margin-top: 5%;
+}
+body footer .liste ul li a {
+  font-family: "Lato";
+  color: white;
+}/*# sourceMappingURL=style.css.map */
